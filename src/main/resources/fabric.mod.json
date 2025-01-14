@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "brickables",
+	"version": "${version}",
+	"name": "Brickables",
+	"description": "freaky mod with more building blocks",
+	"authors": [
+		"h3rx4",
+		"GiveALlTheMagicItemsToJustin"
+	],
+	"contact": {
+		"homepage": "https://h3rx4.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ARR",
+	"icon": "assets/brickables/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.h3rx4.brickables.Brickables"
+		],
+		"fabric-datagen": [
+			"net.h3rx4.brickables.BrickablesDataGenerator"
+		],
+		"client": [
+			"net.h3rx4.brickables.BrickablesClient"
+		]
+	},
+	"mixins": [
+		"brickables.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.h3rx4.brickables.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
