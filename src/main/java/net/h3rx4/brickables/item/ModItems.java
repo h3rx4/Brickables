@@ -10,8 +10,6 @@ public class ModItems {
     public static void registerModItems() {
         Brickables.LOGGER.debug("Registering Mod Items for " + Brickables.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(ModBlocks.CALCITE_BRICKS);
-        });
+
+        };
     }
-}
