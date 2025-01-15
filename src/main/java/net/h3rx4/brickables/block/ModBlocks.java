@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block CALCITE_BRICKS = registerBlock("calcite_bricks",
-            new Block(AbstractBlock.Settings.create().strength(1f)
+            new Block(AbstractBlock.Settings.create().strength(0.75f)
                     .requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
 
