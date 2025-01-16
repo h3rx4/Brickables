@@ -1,4 +1,11 @@
 {
   "block.brickables.calcite_bricks": "Calcite Bricks",
-  "itemgroup.brickables.brickables": "Brickables"
+  "itemgroup.brickables.brickables": "Brickables",
+  "block.brickables.calcite_brick_slab": "Calcite Brick Slab",
+  "block.brickables.calcite_brick_stairs": "Calcite Brick Stairs",
+  "block.brickables.calcite_brick_wall": "Calcite Brick Wall"
+
+
+
+
 }
