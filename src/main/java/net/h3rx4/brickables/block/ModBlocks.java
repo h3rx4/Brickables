@@ -1,8 +1,7 @@
 package net.h3rx4.brickables.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
+import net.minecraft.block.*;
 import net.h3rx4.brickables.Brickables;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -16,6 +15,17 @@ public class ModBlocks {
     public static final Block CALCITE_BRICKS = registerBlock("calcite_bricks",
             new Block(AbstractBlock.Settings.create().strength(0.75f)
                     .requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block CALCITE_BRICK_STAIRS = registerBlock("calcite_brick_stairs",
+    new StairsBlock(ModBlocks.CALCITE_BRICKS.getDefaultState(),
+            AbstractBlock.Settings.create().strength(0.75f).requiresTool()));
+
+    public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
+            new SlabBlock (AbstractBlock.Settings.create().strength(0.75f).requiresTool()));
+
+    public static final Block CALCITE_BRICK_WALL = registerBlock("calcite_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(0.75f).requiresTool()));
+
 
 
     private static Block registerBlock(String name, Block block) {

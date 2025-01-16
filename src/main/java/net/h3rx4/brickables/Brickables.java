@@ -3,6 +3,7 @@ package net.h3rx4.brickables;
 import net.fabricmc.api.ModInitializer;
 
 import net.h3rx4.brickables.block.ModBlocks;
+import net.h3rx4.brickables.item.ModItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +13,7 @@ public class Brickables implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
 		ModBlocks.registerModBlocks();
 	}
