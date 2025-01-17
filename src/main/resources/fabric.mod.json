@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "brickables",
-	"version": "${version}",
+	"version": "${0.1}",
 	"name": "Brickables",
 	"description": "freaky mod with more building blocks",
 	"authors": [
@@ -10,7 +10,7 @@
 	],
 	"contact": {
 		"homepage": "https://h3rx4.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/h3rx4/Brickables"
 	},
 	"license": "ARR",
 	"icon": "assets/brickables/icon.png",
