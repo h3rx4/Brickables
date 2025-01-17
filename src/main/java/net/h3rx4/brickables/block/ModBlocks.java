@@ -13,18 +13,17 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block CALCITE_BRICKS = registerBlock("calcite_bricks",
-            new Block(AbstractBlock.Settings.create().strength(0.75f)
-                    .requiresTool().sounds(BlockSoundGroup.CALCITE)));
+            new Block(AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
     public static final Block CALCITE_BRICK_STAIRS = registerBlock("calcite_brick_stairs",
-    new StairsBlock(ModBlocks.CALCITE_BRICKS.getDefaultState(),
-            AbstractBlock.Settings.create().strength(0.75f).requiresTool()));
+            new StairsBlock(ModBlocks.CALCITE_BRICKS.getDefaultState(),
+            AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
     public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
-            new SlabBlock (AbstractBlock.Settings.create().strength(0.75f).requiresTool()));
+            new SlabBlock (AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
     public static final Block CALCITE_BRICK_WALL = registerBlock("calcite_brick_wall",
-            new WallBlock(AbstractBlock.Settings.create().strength(0.75f).requiresTool()));
+            new WallBlock(AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
 
 
@@ -41,8 +40,7 @@ public class ModBlocks {
     public static void registerModBlocks() {
         Brickables.LOGGER.info("Registering Mod Blocks for " + Brickables.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(ModBlocks.CALCITE_BRICKS);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {;
         });
     }
 }
