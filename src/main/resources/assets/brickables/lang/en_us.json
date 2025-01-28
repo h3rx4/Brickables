@@ -3,7 +3,11 @@
   "itemgroup.brickables.brickables": "Brickables",
   "block.brickables.calcite_brick_slab": "Calcite Brick Slab",
   "block.brickables.calcite_brick_stairs": "Calcite Brick Stairs",
-  "block.brickables.calcite_brick_wall": "Calcite Brick Wall"
+  "block.brickables.calcite_brick_wall": "Calcite Brick Wall",
+  "block.brickables.spider_calcite_bricks": "Spider Calcite Bricks",
+  "block.brickables.spider_calcite_brick_slab": "Spider Calcite Brick Slab",
+  "block.brickables.spider_calcite_brick_stairs": "Spider Calcite Brick Stairs",
+  "block.brickables.spider_calcite_brick_wall": "Spider Calcite Brick Wall"
 
 
 

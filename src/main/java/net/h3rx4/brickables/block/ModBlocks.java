@@ -25,6 +25,21 @@ public class ModBlocks {
     public static final Block CALCITE_BRICK_WALL = registerBlock("calcite_brick_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
+    public static final Block SPIDER_CALCITE_BRICKS = registerBlock("spider_calcite_bricks",
+            new Block(AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block SPIDER_CALCITE_BRICK_STAIRS = registerBlock("spider_calcite_brick_stairs",
+            new StairsBlock(ModBlocks.SPIDER_CALCITE_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block SPIDER_CALCITE_BRICK_SLAB = registerBlock("spider_calcite_brick_slab",
+            new SlabBlock (AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block SPIDER_CALCITE_BRICK_WALL = registerBlock("spider_calcite_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+
+
 
 
     private static Block registerBlock(String name, Block block) {

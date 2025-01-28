@@ -20,6 +20,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CALCITE_BRICK_STAIRS);
                         entries.add(ModBlocks.CALCITE_BRICK_SLAB);
                         entries.add(ModBlocks.CALCITE_BRICK_WALL);
+                        entries.add(ModBlocks.SPIDER_CALCITE_BRICKS);
+                        entries.add(ModBlocks.SPIDER_CALCITE_BRICK_STAIRS);
+                        entries.add(ModBlocks.SPIDER_CALCITE_BRICK_SLAB);
+                        entries.add(ModBlocks.SPIDER_CALCITE_BRICK_WALL);
 
                     })
 

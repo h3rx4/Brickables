@@ -16,8 +16,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.SPIDER_CALCITE_BRICKS)
                 .add(ModBlocks.CALCITE_BRICKS);
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.CALCITE_BRICK_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.SPIDER_CALCITE_BRICK_WALL);
 
     }
 }
