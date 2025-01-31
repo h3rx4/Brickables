@@ -13,14 +13,20 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-       BlockStateModelGenerator.BlockTexturePool calciteBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CALCITE_BRICKS);
-       BlockStateModelGenerator.BlockTexturePool spiderCalciteBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SPIDER_CALCITE_BRICKS);
+       blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INTERWOVEN_CALCITE);
+       blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INTERWOVEN_DIORITE);
+        BlockStateModelGenerator.BlockTexturePool calciteBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CALCITE_BRICKS);
+       BlockStateModelGenerator.BlockTexturePool spiderCalciteBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.INTERWOVEN_CALCITE_BRICKS);
+       BlockStateModelGenerator.BlockTexturePool interwovenDioritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.INTERWOVEN_POLISHED_DIORITE);
         calciteBrickPool.slab(ModBlocks.CALCITE_BRICK_SLAB);
         calciteBrickPool.stairs(ModBlocks.CALCITE_BRICK_STAIRS);
         calciteBrickPool.wall(ModBlocks.CALCITE_BRICK_WALL);
-        spiderCalciteBrickPool.slab(ModBlocks.SPIDER_CALCITE_BRICK_SLAB);
-        spiderCalciteBrickPool.stairs(ModBlocks.SPIDER_CALCITE_BRICK_STAIRS);
-        spiderCalciteBrickPool.wall(ModBlocks.SPIDER_CALCITE_BRICK_WALL);
+        spiderCalciteBrickPool.slab(ModBlocks.INTERWOVEN_CALCITE_BRICK_SLAB);
+        spiderCalciteBrickPool.stairs(ModBlocks.INTERWOVEN_CALCITE_BRICK_STAIRS);
+        spiderCalciteBrickPool.wall(ModBlocks.INTERWOVEN_CALCITE_BRICK_WALL);
+        interwovenDioritePool.slab(ModBlocks.INTERWOVEN_POLISHED_DIORITE_SLAB);
+        interwovenDioritePool.stairs(ModBlocks.INTERWOVEN_POLISHED_DIORITE_STAIRS);
+        interwovenDioritePool.wall(ModBlocks.INTERWOVEN_POLISHED_DIORITE_WALL);
     }
 
     @Override

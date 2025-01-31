@@ -16,10 +16,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.SPIDER_CALCITE_BRICKS)
-                .add(ModBlocks.CALCITE_BRICKS);
+                .add(ModBlocks.INTERWOVEN_CALCITE_BRICKS)
+                .add(ModBlocks.CALCITE_BRICKS)
+                .add(ModBlocks.CALCITE_BRICK_STAIRS)
+                .add(ModBlocks.INTERWOVEN_CALCITE_BRICK_SLAB)
+                .add(ModBlocks.INTERWOVEN_CALCITE_BRICK_STAIRS)
+                .add(ModBlocks.INTERWOVEN_CALCITE_BRICK_WALL)
+                .add(ModBlocks.CALCITE_BRICK_WALL)
+                .add(ModBlocks.CALCITE_BRICK_SLAB)
+                .add(ModBlocks.INTERWOVEN_CALCITE)
+                .add(ModBlocks.INTERWOVEN_DIORITE)
+                .add(ModBlocks.INTERWOVEN_POLISHED_DIORITE)
+                .add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_SLAB)
+                .add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_WALL)
+                .add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_STAIRS);
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.CALCITE_BRICK_WALL);
-                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.SPIDER_CALCITE_BRICK_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.INTERWOVEN_CALCITE_BRICK_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_WALL);
 
     }
 }
