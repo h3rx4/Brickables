@@ -29,10 +29,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.INTERWOVEN_POLISHED_DIORITE)
                 .add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_SLAB)
                 .add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_WALL)
-                .add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_STAIRS);
+                .add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_STAIRS)
+                .add(ModBlocks.INTERWOVEN_CALCITE_SLAB)
+                .add(ModBlocks.INTERWOVEN_CALCITE_STAIRS)
+                .add(ModBlocks.INTERWOVEN_CALCITE_WALL)
+                .add(ModBlocks.INTERWOVEN_DIORITE_SLAB)
+                .add(ModBlocks.INTERWOVEN_DIORITE_WALL)
+                .add(ModBlocks.INTERWOVEN_DIORITE_STAIRS)
+                .add(ModBlocks.CALCITE_SLAB)
+                .add(ModBlocks.CALCITE_WALL)
+                .add(ModBlocks.CALCITE_STAIRS)
+                .add(ModBlocks.SMOOTH_BASALT_SLAB)
+                .add(ModBlocks.SMOOTH_BASALT_STAIRS)
+                .add(ModBlocks.SMOOTH_BASALT_WALL);
+
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.CALCITE_BRICK_WALL);
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.INTERWOVEN_CALCITE_BRICK_WALL);
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.INTERWOVEN_CALCITE_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.INTERWOVEN_DIORITE_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.CALCITE_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.SMOOTH_BASALT_WALL);
 
     }
 }

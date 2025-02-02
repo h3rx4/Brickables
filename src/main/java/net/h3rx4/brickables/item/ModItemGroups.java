@@ -30,6 +30,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_SLAB);
                         entries.add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_STAIRS);
                         entries.add(ModBlocks.INTERWOVEN_POLISHED_DIORITE_WALL);
+                        entries.add(ModBlocks.INTERWOVEN_CALCITE_SLAB);
+                        entries.add(ModBlocks.INTERWOVEN_CALCITE_STAIRS);
+                        entries.add(ModBlocks.INTERWOVEN_CALCITE_WALL);
+                        entries.add(ModBlocks.INTERWOVEN_DIORITE_SLAB);
+                        entries.add(ModBlocks.INTERWOVEN_DIORITE_WALL);
+                        entries.add(ModBlocks.INTERWOVEN_DIORITE_STAIRS);
+                        entries.add(ModBlocks.CALCITE_SLAB);
+                        entries.add(ModBlocks.CALCITE_STAIRS);
+                        entries.add(ModBlocks.CALCITE_WALL);
+                        entries.add(ModBlocks.SMOOTH_BASALT_SLAB);
+                        entries.add(ModBlocks.SMOOTH_BASALT_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_BASALT_WALL);
 
 
                     })

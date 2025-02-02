@@ -57,11 +57,45 @@ public class ModBlocks {
     public static final Block INTERWOVEN_POLISHED_DIORITE_WALL = registerBlock("interwoven_polished_diorite_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block INTERWOVEN_CALCITE_STAIRS = registerBlock("interwoven_calcite_stairs",
+            new StairsBlock(ModBlocks.INTERWOVEN_CALCITE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
+    public static final Block INTERWOVEN_CALCITE_SLAB = registerBlock("interwoven_calcite_slab",
+            new SlabBlock (AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
+    public static final Block INTERWOVEN_CALCITE_WALL = registerBlock("interwoven_calcite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
+    public static final Block INTERWOVEN_DIORITE_STAIRS = registerBlock("interwoven_diorite_stairs",
+            new StairsBlock(ModBlocks.INTERWOVEN_DIORITE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block INTERWOVEN_DIORITE_SLAB = registerBlock("interwoven_diorite_slab",
+            new SlabBlock (AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block INTERWOVEN_DIORITE_WALL = registerBlock("interwoven_diorite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs",
+            new StairsBlock(Blocks.CALCITE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block CALCITE_SLAB = registerBlock("calcite_slab",
+            new SlabBlock (AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block CALCITE_WALL = registerBlock("calcite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block SMOOTH_BASALT_STAIRS = registerBlock("smooth_basalt_stairs",
+            new StairsBlock(Blocks.BASALT.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.BASALT)));
+
+    public static final Block SMOOTH_BASALT_SLAB = registerBlock("smooth_basalt_slab",
+            new SlabBlock (AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.BASALT)));
+
+    public static final Block SMOOTH_BASALT_WALL = registerBlock("smooth_basalt_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.BASALT)));
 
 
 

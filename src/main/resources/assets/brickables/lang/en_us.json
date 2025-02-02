@@ -13,11 +13,17 @@
   "block.brickables.interwoven_polished_diorite": "Interwoven Polished Diorite",
   "block.brickables.interwoven_polished_diorite_stairs": "Interwoven Polished Diorite Stairs",
   "block.brickables.interwoven_polished_diorite_slab": "Interwoven Polished Diorite Slab",
-  "block.brickables.interwoven_polished_diorite_wall": "Interwoven Polished Diorite Wall"
-
-
-
-
-
-
+  "block.brickables.interwoven_polished_diorite_wall": "Interwoven Polished Diorite Wall",
+  "block.brickables.interwoven_calcite_slab": "Interwoven Calcite Slab",
+  "block.brickables.interwoven_calcite_stairs": "Interwoven Calcite Stairs",
+  "block.brickables.interwoven_calcite_wall": "Interwoven Calcite Wall",
+  "block.brickables.interwoven_diorite_slab": "Interwoven Diorite Slab",
+  "block.brickables.interwoven_diorite_stairs": "Interwoven Diorite Stairs",
+  "block.brickables.interwoven_diorite_wall": "Interwoven Diorite Wall",
+  "block.brickables.calcite_slab": "Calcite Slab",
+  "block.brickables.calcite_wall": "Calcite Wall",
+  "block.brickables.calcite_stairs": "Calcite Stairs",
+  "block.brickables.smooth_basalt_stairs": "Smooth Basalt Stairs",
+  "block.brickables.smooth_basalt_slab": "Smooth Basalt Slab",
+  "block.brickables.smooth_basalt_wall": "Smooth Basalt Wall"
 }
