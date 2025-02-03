@@ -41,7 +41,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CALCITE_STAIRS)
                 .add(ModBlocks.SMOOTH_BASALT_SLAB)
                 .add(ModBlocks.SMOOTH_BASALT_STAIRS)
-                .add(ModBlocks.SMOOTH_BASALT_WALL);
+                .add(ModBlocks.SMOOTH_BASALT_WALL)
+                .add(ModBlocks.INTERWOVEN_ICE);
+
 
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.CALCITE_BRICK_WALL);
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.INTERWOVEN_CALCITE_BRICK_WALL);

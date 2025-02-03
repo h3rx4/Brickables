@@ -97,6 +97,9 @@ public class ModBlocks {
     public static final Block SMOOTH_BASALT_WALL = registerBlock("smooth_basalt_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.BASALT)));
 
+    public static final Block INTERWOVEN_ICE = registerBlock("interwoven_ice",
+            new Block(AbstractBlock.Settings.create().slipperiness(1.1f).requiresTool().strength(0.5f).sounds(BlockSoundGroup.GLASS)));
+
 
 
     private static Block registerBlock(String name, Block block) {

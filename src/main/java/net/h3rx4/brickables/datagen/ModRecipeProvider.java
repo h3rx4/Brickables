@@ -120,6 +120,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.SMOOTH_BASALT), conditionsFromItem(Blocks.SMOOTH_BASALT))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INTERWOVEN_ICE,4)
+                .pattern(" R ")
+                .pattern("RER")
+                .pattern(" R ")
+                .input('R', Blocks.BLUE_ICE)
+                .input('E', Items.SPIDER_EYE)
+                .criterion(hasItem(Blocks.BLUE_ICE), conditionsFromItem(Blocks.BLUE_ICE))
+                .criterion(hasItem(Items.SPIDER_EYE), conditionsFromItem(Items.SPIDER_EYE))
+                .offerTo(exporter);
+
+
+
 
 
 
