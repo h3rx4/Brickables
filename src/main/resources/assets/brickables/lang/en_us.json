@@ -29,5 +29,7 @@
   "block.brickables.interwoven_ice": "Interwoven Ice",
   "block.brickables.calcite_pillar": "Calcite Pillar",
   "block.brickables.blue_shroomlight": "Blue Shroomlight",
-  "block.brickables.folly_shroomlight": "Folly Shroomlight"
+  "block.brickables.folly_shroomlight": "Folly Shroomlight",
+  "item.brickables.the_tale_of_a_cruel_world_music_disc": "Music Disc",
+  "item.brickables.the_tale_of_a_cruel_world_music_disc.desc": "The Tale of a Cruel World - DM DOKURO"
 }

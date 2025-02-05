@@ -46,6 +46,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CALCITE_PILLAR);
                         entries.add(ModBlocks.BLUE_SHROOMLIGHT);
                         entries.add(ModBlocks.FOLLY_SHROOMLIGHT);
+                        entries.add(ModItems.THE_TALE_OF_A_CRUEL_WORLD_MUSIC_DISC);
 
 
                     })

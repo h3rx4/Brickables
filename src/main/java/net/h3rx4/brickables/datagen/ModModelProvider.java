@@ -3,9 +3,11 @@ package net.h3rx4.brickables.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.h3rx4.brickables.block.ModBlocks;
+import net.h3rx4.brickables.item.ModItems;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Models;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -50,6 +52,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.THE_TALE_OF_A_CRUEL_WORLD_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register();
 
     }

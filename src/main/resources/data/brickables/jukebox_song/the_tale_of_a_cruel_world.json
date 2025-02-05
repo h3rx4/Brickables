@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.brickables.the_tale_of_a_cruel_world_music_disc.desc"
+  },
+  "length_in_seconds": 261.0,
+  "sound_event": "brickables:the_tale_of_a_cruel_world"
+}

@@ -1,0 +1,10 @@
+{
+  "the_tale_of_a_cruel_world":{
+    "sounds": [
+      {
+        "name": "brickables:the_tale_of_a_cruel_world",
+        "stream": true
+      }
+    ]
+  }
+}
