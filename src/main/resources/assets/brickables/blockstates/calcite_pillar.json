@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "brickables:block/calcite_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "brickables:block/calcite_pillar"
+    },
+    "axis=z": {
+      "model": "brickables:block/calcite_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

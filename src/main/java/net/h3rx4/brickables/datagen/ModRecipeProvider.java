@@ -130,6 +130,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.SPIDER_EYE), conditionsFromItem(Items.SPIDER_EYE))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_SHROOMLIGHT,4)
+                .pattern(" RR")
+                .pattern("RRE")
+                .pattern("EEE")
+                .input('R', Blocks.SHROOMLIGHT)
+                .input('E', Items.BLUE_DYE)
+                .criterion(hasItem(Blocks.SHROOMLIGHT), conditionsFromItem(Blocks.SHROOMLIGHT))
+                .criterion(hasItem(Items.BLUE_DYE), conditionsFromItem(Items.BLUE_DYE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FOLLY_SHROOMLIGHT,4)
+                .pattern(" RR")
+                .pattern("RRE")
+                .pattern("EEE")
+                .input('R', Blocks.SHROOMLIGHT)
+                .input('E', Items.PINK_DYE)
+                .criterion(hasItem(Blocks.SHROOMLIGHT), conditionsFromItem(Blocks.SHROOMLIGHT))
+                .criterion(hasItem(Items.PINK_DYE), conditionsFromItem(Items.PINK_DYE))
+                .offerTo(exporter);
+    
 
 
 
@@ -162,6 +182,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BASALT_SLAB, Blocks.SMOOTH_BASALT,2);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BASALT_STAIRS, Blocks.SMOOTH_BASALT,1);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMOOTH_BASALT_WALL, Blocks.SMOOTH_BASALT,1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CALCITE_PILLAR, ModBlocks.CALCITE_BRICKS,1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CALCITE_PILLAR, Blocks.CALCITE,1);
 
 
 

@@ -100,6 +100,15 @@ public class ModBlocks {
     public static final Block INTERWOVEN_ICE = registerBlock("interwoven_ice",
             new Block(AbstractBlock.Settings.create().slipperiness(1.1f).requiresTool().strength(0.5f).sounds(BlockSoundGroup.GLASS)));
 
+    public static final Block CALCITE_PILLAR = registerBlock("calcite_pillar",
+            new PillarBlock(AbstractBlock.Settings.create().strength(0.75f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block BLUE_SHROOMLIGHT = registerBlock("blue_shroomlight",
+            new Block(AbstractBlock.Settings.create().luminance((state -> {return 15;})).strength(1.0F).sounds(BlockSoundGroup.SHROOMLIGHT)));
+
+    public static final Block FOLLY_SHROOMLIGHT = registerBlock("folly_shroomlight",
+            new Block(AbstractBlock.Settings.create().luminance((state -> {return 15;})).strength(1.0F).sounds(BlockSoundGroup.SHROOMLIGHT)));
+
 
 
     private static Block registerBlock(String name, Block block) {

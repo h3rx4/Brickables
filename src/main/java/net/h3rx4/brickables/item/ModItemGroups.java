@@ -43,6 +43,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMOOTH_BASALT_STAIRS);
                         entries.add(ModBlocks.SMOOTH_BASALT_WALL);
                         entries.add(ModBlocks.INTERWOVEN_ICE);
+                        entries.add(ModBlocks.CALCITE_PILLAR);
+                        entries.add(ModBlocks.BLUE_SHROOMLIGHT);
+                        entries.add(ModBlocks.FOLLY_SHROOMLIGHT);
 
 
                     })

@@ -42,6 +42,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_BASALT_STAIRS);
         addDrop(ModBlocks.SMOOTH_BASALT_WALL);
         addDrop(ModBlocks.INTERWOVEN_ICE);
+        addDrop(ModBlocks.CALCITE_PILLAR);
+        addDrop(ModBlocks.BLUE_SHROOMLIGHT);
+        addDrop(ModBlocks.FOLLY_SHROOMLIGHT);
 
     }
 }

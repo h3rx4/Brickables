@@ -22,6 +22,8 @@ public class ModModelProvider extends FabricModelProvider {
        BlockStateModelGenerator.BlockTexturePool calcitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.CALCITE);
        BlockStateModelGenerator.BlockTexturePool basaltPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_BASALT);
        BlockStateModelGenerator.BlockTexturePool interwovenIcePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.INTERWOVEN_ICE);
+       BlockStateModelGenerator.BlockTexturePool blueShroomlightPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLUE_SHROOMLIGHT);
+       BlockStateModelGenerator.BlockTexturePool follyShroomLightPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FOLLY_SHROOMLIGHT);
         calciteBrickPool.slab(ModBlocks.CALCITE_BRICK_SLAB);
         calciteBrickPool.stairs(ModBlocks.CALCITE_BRICK_STAIRS);
         calciteBrickPool.wall(ModBlocks.CALCITE_BRICK_WALL);
