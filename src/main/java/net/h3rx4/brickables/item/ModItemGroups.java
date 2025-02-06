@@ -47,6 +47,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLUE_SHROOMLIGHT);
                         entries.add(ModBlocks.FOLLY_SHROOMLIGHT);
                         entries.add(ModItems.THE_TALE_OF_A_CRUEL_WORLD_MUSIC_DISC);
+                        entries.add(ModBlocks.SMOOTH_STONE_STAIRS);
+                        entries.add(ModBlocks.SMOOTH_STONE_WALL);
+                        entries.add(ModBlocks.STONE_WALL);
+                        entries.add(ModBlocks.POLISHED_DIORITE_WALL);
+                        entries.add(ModBlocks.POLISHED_ANDESITE_WALL);
+                        entries.add(ModBlocks.POLISHED_GRANITE_WALL);
 
 
                     })

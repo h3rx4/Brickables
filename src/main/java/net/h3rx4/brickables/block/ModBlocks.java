@@ -109,6 +109,30 @@ public class ModBlocks {
     public static final Block FOLLY_SHROOMLIGHT = registerBlock("folly_shroomlight",
             new Block(AbstractBlock.Settings.create().luminance((state -> {return 15;})).strength(1.0F).sounds(BlockSoundGroup.SHROOMLIGHT)));
 
+    public static final Block SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs",
+            new StairsBlock(Blocks.SMOOTH_STONE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2.0f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block SMOOTH_STONE_WALL = registerBlock("smooth_stone_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2.0f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block STONE_WALL = registerBlock("stone_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2.0f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_GRANITE_WALL = registerBlock("polished_granite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_ANDESITE_WALL = registerBlock("polished_andesite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_DIORITE_WALL = registerBlock("polished_diorite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+
+
+
+
+
 
 
     private static Block registerBlock(String name, Block block) {

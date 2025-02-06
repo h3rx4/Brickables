@@ -31,5 +31,11 @@
   "block.brickables.blue_shroomlight": "Blue Shroomlight",
   "block.brickables.folly_shroomlight": "Folly Shroomlight",
   "item.brickables.the_tale_of_a_cruel_world_music_disc": "Music Disc",
-  "item.brickables.the_tale_of_a_cruel_world_music_disc.desc": "The Tale of a Cruel World - DM DOKURO"
+  "item.brickables.the_tale_of_a_cruel_world_music_disc.desc": "The Tale of a Cruel World - DM DOKURO",
+  "block.brickables.smooth_stone_stairs": "Smooth Stone Stairs",
+  "block.brickables.smooth_stone_wall": "Smooth Stone Wall",
+  "block.brickables.stone_wall": "Stone Wall",
+  "block.brickables.polished_granite_wall": "Polished Granite Wall",
+  "block.brickables.polished_andesite_wall": "Polished Andesite Wall",
+  "block.brickables.polished_diorite_wall": "Polished Diorite Wall"
 }

@@ -26,6 +26,11 @@ public class ModModelProvider extends FabricModelProvider {
        BlockStateModelGenerator.BlockTexturePool interwovenIcePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.INTERWOVEN_ICE);
        BlockStateModelGenerator.BlockTexturePool blueShroomlightPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLUE_SHROOMLIGHT);
        BlockStateModelGenerator.BlockTexturePool follyShroomLightPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FOLLY_SHROOMLIGHT);
+       BlockStateModelGenerator.BlockTexturePool smoothStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_STONE);
+       BlockStateModelGenerator.BlockTexturePool stonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.STONE);
+        BlockStateModelGenerator.BlockTexturePool polishedDioritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_DIORITE);
+        BlockStateModelGenerator.BlockTexturePool polishedGranitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_GRANITE);
+        BlockStateModelGenerator.BlockTexturePool polishedAndesitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_ANDESITE);
         calciteBrickPool.slab(ModBlocks.CALCITE_BRICK_SLAB);
         calciteBrickPool.stairs(ModBlocks.CALCITE_BRICK_STAIRS);
         calciteBrickPool.wall(ModBlocks.CALCITE_BRICK_WALL);
@@ -47,6 +52,12 @@ public class ModModelProvider extends FabricModelProvider {
         basaltPool.stairs(ModBlocks.SMOOTH_BASALT_STAIRS);
         basaltPool.wall(ModBlocks.SMOOTH_BASALT_WALL);
         basaltPool.slab(ModBlocks.SMOOTH_BASALT_SLAB);
+        smoothStonePool.wall(ModBlocks.SMOOTH_STONE_WALL);
+        smoothStonePool.stairs(ModBlocks.SMOOTH_STONE_STAIRS);
+        stonePool.wall(ModBlocks.STONE_WALL);
+        polishedGranitePool.wall(ModBlocks.POLISHED_GRANITE_WALL);
+        polishedDioritePool.wall(ModBlocks.POLISHED_DIORITE_WALL);
+        polishedAndesitePool.wall(ModBlocks.POLISHED_ANDESITE_WALL);
 
     }
 

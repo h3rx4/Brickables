@@ -45,7 +45,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.INTERWOVEN_ICE)
                 .add(ModBlocks.CALCITE_PILLAR)
                 .add(ModBlocks.BLUE_SHROOMLIGHT)
-                .add(ModBlocks.FOLLY_SHROOMLIGHT);
+                .add(ModBlocks.FOLLY_SHROOMLIGHT)
+                .add(ModBlocks.SMOOTH_STONE_STAIRS)
+                .add(ModBlocks.SMOOTH_STONE_WALL)
+                .add(ModBlocks.STONE_WALL)
+                .add(ModBlocks.POLISHED_ANDESITE_WALL)
+                .add(ModBlocks.POLISHED_DIORITE_WALL)
+                .add(ModBlocks.POLISHED_GRANITE_WALL);
 
 
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.CALCITE_BRICK_WALL);
@@ -55,6 +61,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.INTERWOVEN_DIORITE_WALL);
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.CALCITE_WALL);
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.SMOOTH_BASALT_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.SMOOTH_STONE_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.STONE_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.POLISHED_GRANITE_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.POLISHED_ANDESITE_WALL);
+                getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.POLISHED_DIORITE_WALL);
+
+
 
     }
 }
