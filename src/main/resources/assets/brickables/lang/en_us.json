@@ -37,5 +37,7 @@
   "block.brickables.stone_wall": "Stone Wall",
   "block.brickables.polished_granite_wall": "Polished Granite Wall",
   "block.brickables.polished_andesite_wall": "Polished Andesite Wall",
-  "block.brickables.polished_diorite_wall": "Polished Diorite Wall"
+  "block.brickables.polished_diorite_wall": "Polished Diorite Wall",
+  "item.brickables.pink_amethyst_shard": "Pink Amethyst Shard",
+  "trim_material.brickables.pink_amethyst_shard": "Pink Amethyst Material"
 }

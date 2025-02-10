@@ -53,6 +53,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_DIORITE_WALL);
                         entries.add(ModBlocks.POLISHED_ANDESITE_WALL);
                         entries.add(ModBlocks.POLISHED_GRANITE_WALL);
+                        entries.add(ModItems.PINK_AMETHYST_SHARD);
 
 
                     })

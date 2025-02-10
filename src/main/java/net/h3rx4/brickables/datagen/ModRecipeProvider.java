@@ -3,6 +3,7 @@ package net.h3rx4.brickables.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.h3rx4.brickables.block.ModBlocks;
+import net.h3rx4.brickables.item.ModItems;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
@@ -197,6 +198,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("RRR")
                 .input('R', Blocks.POLISHED_ANDESITE)
                 .criterion(hasItem(Blocks.POLISHED_ANDESITE), conditionsFromItem(Blocks.POLISHED_ANDESITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PINK_AMETHYST_SHARD,4)
+                .pattern(" R ")
+                .pattern("RER")
+                .pattern(" R ")
+                .input('R', Items.AMETHYST_SHARD)
+                .input('E', Items.PINK_DYE)
+                .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
+                .criterion(hasItem(Items.PINK_DYE), conditionsFromItem(Items.PINK_DYE))
                 .offerTo(exporter);
 
 
