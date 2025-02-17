@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "brickables:block/unlit_lantern"
+    },
+    "hanging=true": {
+      "model": "brickables:block/unlit_lantern_hanging"
+    }
+  }
+}

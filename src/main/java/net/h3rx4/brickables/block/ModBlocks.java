@@ -150,6 +150,9 @@ public class ModBlocks {
     public static final Block INTERWOVEN_SANDSTONE_WALL = registerBlock("interwoven_sandstone_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(0.8f).requiresTool()));
 
+    public static final Block UNLIT_LANTERN = registerBlock("unlit_lantern",
+            new LanternBlock(AbstractBlock.Settings.create().requiresTool().strength(3.5f).sounds(BlockSoundGroup.LANTERN).solid()));
+
 
 
 
@@ -171,7 +174,7 @@ public class ModBlocks {
     public static void registerModBlocks() {
         Brickables.LOGGER.info("Registering Mod Blocks for " + Brickables.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {;
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
         });
     }
 }

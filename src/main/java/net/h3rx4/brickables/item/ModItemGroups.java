@@ -59,6 +59,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.INTERWOVEN_SANDSTONE_WALL);
                         entries.add(ModBlocks.INTERWOVEN_SANDSTONE);
                         entries.add(ModBlocks.INTERWOVEN_SANDSTONE_STAIRS);
+                        entries.add(ModBlocks.UNLIT_LANTERN);
 
 
                     })

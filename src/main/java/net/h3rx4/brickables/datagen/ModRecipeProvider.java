@@ -228,6 +228,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.INTERWOVEN_SAND), conditionsFromItem(ModBlocks.INTERWOVEN_SAND))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.UNLIT_LANTERN,1)
+                .pattern("RRR")
+                .pattern("R R")
+                .pattern("RRR")
+                .input('R', Items.IRON_NUGGET)
+                .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
+                .offerTo(exporter);
+
+
+
 
 
 

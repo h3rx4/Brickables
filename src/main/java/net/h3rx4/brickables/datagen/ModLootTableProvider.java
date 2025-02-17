@@ -56,6 +56,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.INTERWOVEN_SANDSTONE_SLAB, slabDrops(ModBlocks.INTERWOVEN_SANDSTONE_SLAB));
         addDrop(ModBlocks.INTERWOVEN_SANDSTONE_STAIRS);
         addDrop(ModBlocks.INTERWOVEN_SANDSTONE_WALL);
+        addDrop(ModBlocks.UNLIT_LANTERN);
 
     }
 }

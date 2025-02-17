@@ -55,7 +55,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.INTERWOVEN_SANDSTONE)
                 .add(ModBlocks.INTERWOVEN_SANDSTONE_SLAB)
                 .add(ModBlocks.INTERWOVEN_SANDSTONE_WALL)
-                .add(ModBlocks.INTERWOVEN_SANDSTONE_STAIRS);
+                .add(ModBlocks.INTERWOVEN_SANDSTONE_STAIRS)
+                .add(ModBlocks.UNLIT_LANTERN);
 
 
                 getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.CALCITE_BRICK_WALL);
