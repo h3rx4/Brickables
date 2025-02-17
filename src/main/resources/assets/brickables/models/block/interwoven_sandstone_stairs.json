@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "brickables:block/interwoven_sandstone_bottom",
+    "side": "brickables:block/interwoven_sandstone",
+    "top": "brickables:block/interwoven_sandstone_top"
+  }
+}

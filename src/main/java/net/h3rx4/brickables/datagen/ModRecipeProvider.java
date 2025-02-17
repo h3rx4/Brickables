@@ -210,6 +210,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.PINK_DYE), conditionsFromItem(Items.PINK_DYE))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INTERWOVEN_SAND,4)
+                .pattern(" R ")
+                .pattern("RER")
+                .pattern(" R ")
+                .input('R', Blocks.SAND)
+                .input('E', Items.SPIDER_EYE)
+                .criterion(hasItem(Blocks.SAND), conditionsFromItem(Blocks.SAND))
+                .criterion(hasItem(Items.SPIDER_EYE), conditionsFromItem(Items.SPIDER_EYE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.INTERWOVEN_SANDSTONE, 4)
+                .pattern("   ")
+                .pattern("RR ")
+                .pattern("RR ")
+                .input('R', ModBlocks.INTERWOVEN_SAND)
+                .criterion(hasItem(ModBlocks.INTERWOVEN_SAND), conditionsFromItem(ModBlocks.INTERWOVEN_SAND))
+                .offerTo(exporter);
+
+
+
 
     
 
@@ -256,6 +276,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Blocks.NETHER_WART_BLOCK)
                 .criterion(hasItem(Blocks.NETHER_WART_BLOCK), conditionsFromItem(Blocks.NETHER_WART_BLOCK))
                 .offerTo(exporter);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.INTERWOVEN_SANDSTONE_SLAB, ModBlocks.INTERWOVEN_SANDSTONE,2);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.INTERWOVEN_SANDSTONE_STAIRS, ModBlocks.INTERWOVEN_SANDSTONE,1);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.INTERWOVEN_SANDSTONE_WALL, ModBlocks.INTERWOVEN_SANDSTONE,1);
+
+
 
 
 

@@ -39,5 +39,10 @@
   "block.brickables.polished_andesite_wall": "Polished Andesite Wall",
   "block.brickables.polished_diorite_wall": "Polished Diorite Wall",
   "item.brickables.pink_amethyst_shard": "Pink Amethyst Shard",
-  "trim_material.brickables.pink_amethyst_shard": "Pink Amethyst Material"
+  "trim_material.brickables.pink_amethyst_shard": "Pink Amethyst Material",
+  "block.brickables.interwoven_sand": "Interwoven Sand",
+  "block.brickables.interwoven_sandstone": "Interwoven Sandstone",
+  "block.brickables.interwoven_sandstone_stairs": "Interwoven Sandstone Stairs",
+  "block.brickables.interwoven_sandstone_slab": "Interwoven Sandstone Slab",
+  "block.brickables.interwoven_sandstone_wall": "Interwoven Sandstone Wall"
 }

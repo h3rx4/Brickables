@@ -54,6 +54,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_ANDESITE_WALL);
                         entries.add(ModBlocks.POLISHED_GRANITE_WALL);
                         entries.add(ModItems.PINK_AMETHYST_SHARD);
+                        entries.add(ModBlocks.INTERWOVEN_SAND);
+                        entries.add(ModBlocks.INTERWOVEN_SANDSTONE_SLAB);
+                        entries.add(ModBlocks.INTERWOVEN_SANDSTONE_WALL);
+                        entries.add(ModBlocks.INTERWOVEN_SANDSTONE);
+                        entries.add(ModBlocks.INTERWOVEN_SANDSTONE_STAIRS);
 
 
                     })

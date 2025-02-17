@@ -31,6 +31,7 @@ public class ModModelProvider extends FabricModelProvider {
        BlockStateModelGenerator.BlockTexturePool polishedDioritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_DIORITE);
        BlockStateModelGenerator.BlockTexturePool polishedGranitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_GRANITE);
        BlockStateModelGenerator.BlockTexturePool polishedAndesitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.POLISHED_ANDESITE);
+       BlockStateModelGenerator.BlockTexturePool interwovenSandPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.INTERWOVEN_SAND);
        calciteBrickPool.slab(ModBlocks.CALCITE_BRICK_SLAB);
        calciteBrickPool.stairs(ModBlocks.CALCITE_BRICK_STAIRS);
        calciteBrickPool.wall(ModBlocks.CALCITE_BRICK_WALL);
@@ -58,7 +59,6 @@ public class ModModelProvider extends FabricModelProvider {
        polishedGranitePool.wall(ModBlocks.POLISHED_GRANITE_WALL);
        polishedDioritePool.wall(ModBlocks.POLISHED_DIORITE_WALL);
        polishedAndesitePool.wall(ModBlocks.POLISHED_ANDESITE_WALL);
-
     }
 
     @Override

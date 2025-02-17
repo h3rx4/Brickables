@@ -1,5 +1,6 @@
 package net.h3rx4.brickables.block;
 
+import com.mojang.serialization.MapCodec;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.h3rx4.brickables.Brickables;
@@ -127,6 +128,28 @@ public class ModBlocks {
 
     public static final Block POLISHED_DIORITE_WALL = registerBlock("polished_diorite_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block INTERWOVEN_SAND = registerBlock("interwoven_sand",
+            new FallingBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.SAND)) {
+                @Override
+                protected MapCodec<? extends FallingBlock> getCodec() {
+                    return null;
+                }
+            });
+
+    public static final Block INTERWOVEN_SANDSTONE = registerBlock("interwoven_sandstone",
+            new Block(AbstractBlock.Settings.create().requiresTool().strength(0.8f)));
+
+    public static final Block INTERWOVEN_SANDSTONE_STAIRS = registerBlock("interwoven_sandstone_stairs",
+            new StairsBlock(ModBlocks.INTERWOVEN_SANDSTONE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(0.8f).requiresTool()));
+
+    public static final Block INTERWOVEN_SANDSTONE_SLAB = registerBlock("interwoven_sandstone_slab",
+            new SlabBlock (AbstractBlock.Settings.create().strength(0.8f).requiresTool()));
+
+    public static final Block INTERWOVEN_SANDSTONE_WALL = registerBlock("interwoven_sandstone_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(0.8f).requiresTool()));
+
 
 
 
