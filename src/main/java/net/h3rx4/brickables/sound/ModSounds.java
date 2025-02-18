@@ -16,6 +16,11 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> THE_TALE_OF_A_CRUEL_WORLD_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Brickables.MOD_ID, "the_tale_of_a_cruel_world"));
 
+    public static final SoundEvent THE_SPIDERS_INFLUENCE = registerSoundEvent("the_spiders_influence");
+    public static final RegistryKey<JukeboxSong> THE_SPIDERS_INFLUENCE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Brickables.MOD_ID, "the_spiders_influence"));
+
+
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(Brickables.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));

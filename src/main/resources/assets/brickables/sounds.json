@@ -6,5 +6,13 @@
         "stream": true
       }
     ]
+  },
+  "the_spiders_influence":{
+    "sounds": [
+      {
+        "name": "brickables:the_spiders_influence",
+        "stream": true
+      }
+    ]
   }
 }

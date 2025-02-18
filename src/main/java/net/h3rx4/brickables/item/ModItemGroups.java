@@ -60,6 +60,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.INTERWOVEN_SANDSTONE);
                         entries.add(ModBlocks.INTERWOVEN_SANDSTONE_STAIRS);
                         entries.add(ModBlocks.UNLIT_LANTERN);
+                        entries.add(ModItems.THE_SPIDERS_INFLUENCE_MUSIC_DISC);
 
 
                     })

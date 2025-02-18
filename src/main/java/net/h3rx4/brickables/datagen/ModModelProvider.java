@@ -64,7 +64,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.THE_TALE_OF_A_CRUEL_WORLD_MUSIC_DISC, Models.GENERATED);
-        itemModelGenerator.register();
+        itemModelGenerator.register(ModItems.THE_SPIDERS_INFLUENCE_MUSIC_DISC, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.PINK_AMETHYST_SHARD, Models.GENERATED);
 

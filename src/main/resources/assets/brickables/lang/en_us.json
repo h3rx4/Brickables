@@ -45,5 +45,7 @@
   "block.brickables.interwoven_sandstone_stairs": "Interwoven Sandstone Stairs",
   "block.brickables.interwoven_sandstone_slab": "Interwoven Sandstone Slab",
   "block.brickables.interwoven_sandstone_wall": "Interwoven Sandstone Wall",
-  "block.brickables.unlit_lantern": "Unlit Lantern"
+  "block.brickables.unlit_lantern": "Unlit Lantern",
+  "item.brickables.the_spiders_influence_music_disc": "The Spider's Influence",
+  "item.brickables.the_spiders_influence_music_disc.desc": "The Spider's Influence Grows Ever More"
 }

@@ -12,6 +12,11 @@ public class ModItems {
     public static final Item THE_TALE_OF_A_CRUEL_WORLD_MUSIC_DISC = registerItem("the_tale_of_a_cruel_world_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.THE_TALE_OF_A_CRUEL_WORLD_KEY).maxCount(1).rarity(Rarity.RARE)));
 
+    public static final Item THE_SPIDERS_INFLUENCE_MUSIC_DISC = registerItem("the_spiders_influence_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.THE_SPIDERS_INFLUENCE_KEY).maxCount(1).rarity(Rarity.EPIC)));
+
+
+
     public static final Item PINK_AMETHYST_SHARD = registerItem("pink_amethyst_shard",
             new Item(new Item.Settings()));
 
